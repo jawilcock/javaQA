@@ -2,7 +2,7 @@ package Intermediate.Library;
 
 import java.util.ArrayList;
 
-public class MainLibrary {
+public class MainLibrary implements PersonCRUD, ItemCRUD{
 
     public ArrayList<Person> personList = new ArrayList<>();
     public ArrayList<Item> itemList = new ArrayList<>();
